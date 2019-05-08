@@ -1,7 +1,6 @@
 <?php
     include 'config.php';
-require'config.php';
-    $data=mysqli_fetch_assoc(mysqli_query($connection, "SELECT * from data_pt"));
+	$data=mysqli_fetch_assoc(mysqli_query($connection, "SELECT * from data_pt"));
 ?>
 <!DOCTYPE html>
 <html lang="en">
